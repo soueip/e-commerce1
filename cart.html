@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+
+            <a href="index.html">  <img src="image/logo.svg" alt="Page_logo" width="30px" height="30px"></a>
+
+           
+        </div>
+        <nav>
+            <ul id="menuithem">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="image/cart.png" alt="ithems" width="25px" height="25px"></a>
+        <img src="image/menu.png" alt="menu_icon"  class="menuicon" onclick="menutog()" >
+    </div>
+
+
+<div class="smallcont cartpage">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr class="Item">
+            <td> 
+                <div class="cartinfo">
+                    <img src="image/buy1.jpg" alt="buy1">
+                    <div>
+                        <p>Bipolarland White Tee</p>
+                        <small>Price 84Tnd</small>
+                        <a href="" class="remove">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1" class=""></td>
+            <td>84 TND</td>
+        </tr>
+        <tr class="Item">
+            <td> 
+                <div class="cartinfo">
+                    <img src="image/buy2.jpg" alt="buy1">
+                    <div>
+                        <p>Third World Youth Black Tee</p>
+                        <small>Price 93 Tnd</small>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>93 TND</td>
+        </tr>
+        <tr class="Item">
+            <td> 
+                <div class="cartinfo">
+                    <img src="image/buy3.jpg" alt="buy1">
+                    <div>
+                        <p>Third World Scented Candle</p>
+                        <small>Price 45Tnd</small>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>45 TND</td>
+        </tr>
+    </table>
+    <div class="totalpice">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>222 TND</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>7 TND</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>229 TND</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footercol1">
+                <h3>Download Our App</h3>
+                <p>Download App for specail offers.</p>
+            <div class="applogo">
+                <img src="image/play-store.png" alt="">
+                <img src="image/app-store.png" alt="">
+            </div>
+            </div>
+            <div class="footercol2">
+            <img src="image/logowhite.svg" alt="logo" width="300px">
+                <p>Zerosik is an experimental atelier and independent lifestyle brand based in Tunisia.</p>
+            </div>
+            <div class="footercol3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footercol4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Zerosik</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
